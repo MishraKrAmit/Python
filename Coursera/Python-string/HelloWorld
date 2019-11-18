@@ -1,0 +1,16 @@
+import re
+tot=0
+
+rdfile = open('regex_sum_291642.txt', 'r')
+
+for line in rdfile :
+    line= line.rstrip()
+    value  = re.findall('[0-9]+', line)
+    print (value)
+    if not value :
+        continue
+    else:
+        for curVal in value :
+          print (curVal)
+          tot += int(curVal)
+print(tot)

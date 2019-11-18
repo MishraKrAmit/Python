@@ -1,0 +1,13 @@
+import re
+
+rdfile = open('regex_sum_291642.txt')
+lstread =  list()
+tot=0
+count=0
+for line in rdfile:
+  line= line.rstrip()
+  value = re.findall( '([0-9]+)',line)
+  print(value)
+#  if len(value)!= 1:
+#    continue
+#    lstread.append(value)

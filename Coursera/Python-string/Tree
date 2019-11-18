@@ -1,0 +1,4 @@
+bikes= ['Hero' , 'Bajaj' , 'Mahindra']
+
+for bike in bikes:
+  print (bike)

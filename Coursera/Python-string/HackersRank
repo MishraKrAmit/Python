@@ -1,0 +1,5 @@
+#j=0
+for i in range(0,8):
+  j = j + 1
+  print(j**2)
+  j = j * 10
